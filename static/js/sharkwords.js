@@ -14,7 +14,6 @@ const createDivsForChars = (word) => {
   // Replace this with your code
   for (const letter of word) {
     $('#word-container').append(`<div class='letter-box ${letter}'></div>`);
-
   }
 };
 
@@ -23,6 +22,9 @@ const createDivsForChars = (word) => {
 //
 const generateLetterButtons = () => {
   // Replace this with your code
+  for(const letter of ALPHABET) {
+    $('#letter-buttons').append(`<button>${letter}</button>`);
+  }
 };
 
 
