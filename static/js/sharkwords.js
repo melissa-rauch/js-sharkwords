@@ -34,6 +34,9 @@ const generateLetterButtons = () => {
 //
 const disableLetterButton = (buttonEl) => {
   // Replace this with your code
+  
+  buttonEL.setAttribute('disabled', true);
+
 };
 
 
@@ -41,6 +44,7 @@ const disableLetterButton = (buttonEl) => {
 //
 const isLetterInWord = (letter) => {
   // Replace this with your code
+
 };
 
 
