@@ -34,8 +34,9 @@ const generateLetterButtons = () => {
 //
 const disableLetterButton = (buttonEl) => {
   // Replace this with your code
-  
-  buttonEL.setAttribute('disabled', true);
+  // console.log(buttonEl)
+  buttonEl.attr('disabled', true);
+
 
 };
 
